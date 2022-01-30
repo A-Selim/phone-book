@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Phone Book</title>
+    </head>
+    <body>
+        <section class="contacts">
+            <div class="search-bar">
+                <label>
+                    Search Contact:
+                    <input type="text" id="search-input" />
+                </label>
+            </div>
+            <ul class="results"></ul>
+            <p class="accent-text">
+                This is a sample. You can delete it and save your contacts.
+            </p>
+            <button class="btn" id="delete-all-btn">Delete All</button>
+        </section>
+
+        <section class="add-contact">
+            <h2>Add New Contact</h2>
+            <label>
+                Name
+                <input type="text" id="add-name" />
+            </label>
+            <label>
+                Phone
+                <input type="text" id="add-phone" />
+            </label>
+            <p class="warning-text"></p>
+            <button class="btn" id="save-btn">Save</button>
+        </section>
+        <div class="overlay">
+            <div class="modal">
+                <div class="detail"></div>
+                <button class="btn" id="back-btn">Back</button>
+            </div>
+        </div>
+
+        <!-- Script -->
+        <script src="main.js"></script>
+    </body>
+</html>
