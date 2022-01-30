@@ -3,7 +3,7 @@
 ## About
 
 It's a simple phone book with a search bar.
-Click on names to see contact details.
+Click on names to see contact details.  
 Contacts will be saved in localStorage.
 
 ## Instructions
